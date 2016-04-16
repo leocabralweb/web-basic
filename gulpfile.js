@@ -44,7 +44,7 @@ gulp.task("styles", function() {
         .pipe(plumber())
         .pipe(compass({
 	      project: path.join(__dirname, 'src'),
-	      css: '../static/css',
+	      css: 'static/css',
 	      sass: 'sass'
 	    }))
         .pipe(autoprefixer('last 2 versions'))
