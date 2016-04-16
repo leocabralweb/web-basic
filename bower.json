@@ -1,0 +1,22 @@
+{
+  "name": "web-basic",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Leonardo Cabral <leonardo.cabral@stormsec.com.br>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "react": "^15.0.1",
+    "gulp": "^3.9.1"
+  }
+}
